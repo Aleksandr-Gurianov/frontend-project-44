@@ -1,4 +1,8 @@
-#!/usr/bin/env node
+import { playnewgame } from '../index.js';
+import { randomRange } from '../randomnumber.js';
+
+const text = 'Find the greatest common divisor of given numbers.';
+
 const nod = (first, second) => {
   let x = Math.abs(first);
   let y = Math.abs(second);
@@ -9,11 +13,13 @@ const nod = (first, second) => {
   }
   return x;
 };
-export const gameGcd = () => {
-  const first = Math.abs(Math.round(Math.random()*35));
-  const second = Math.abs(Math.round(Math.random()*35));
+
+const gameGcd = () => {
+  const first = Math.abs(randomRange(1, 35));
+  const second = Math.abs(randomRange(1, 35));
   const question = `${first} ${second}`;
   const play = nod(first, second);
   return [question, `${play}`];
 };
-export const text = 'Find the greatest common divisor of given numbers.';
+
+export const gcdgame = playnewgame(text, gameGcd);

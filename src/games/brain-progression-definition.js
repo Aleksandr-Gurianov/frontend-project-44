@@ -1,9 +1,9 @@
-#!/usr/bin/env node
-const randomRange = (min, max) => {
-  const r = Math.random() * (max - min) + min; return Math.floor(r);};  
+import { playnewgame } from '../index.js';
+import { randomRange } from '../randomnumber.js';
 
-export const text = 'What number is missing in the progression?';
-export const randomNumb = () =>{
+const text = 'What number is missing in the progression?';
+
+const randomNumb = () => {
   const x = randomRange(5, 10);
   const firstNum = randomRange(3, 30);
   const numPlus = randomRange(2, 10);
@@ -11,10 +11,13 @@ export const randomNumb = () =>{
   while (countNum < x) {
     i += numPlus;
     arr.push(i);
-    countNum += 1;}
-  const dot = '..' ;
-  const l = arr.length; 
-  const addDot=randomRange(0,l);
+    countNum += 1;
+  }
+  const dot = '..';
+  const l = arr.length;
+  const addDot = randomRange(0, l);
   const rightanswer = arr[addDot];
-  arr[addDot] = dot;  
-  return [arr.join(' '), `${rightanswer}`]; };
+  arr[addDot] = dot;
+  return [arr.join(' '), `${rightanswer}`];
+};
+export const progressiongame = playnewgame(text, randomNumb);
