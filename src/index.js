@@ -1,21 +1,21 @@
-#!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import { name } from './cli.js';
+import { greeting } from './cli.js';
+
+const username = greeting();
 
 export const playnewgame = (text, gamevariant) => {
   console.log(text);
   let finalgame = '';	
-  let i = 0;
-  while (i < 3) {
+  const numberOfround = 3;
+  for (let i = 0; i < numberOfround ; i += 1) {
     const [question, programanswer] = gamevariant();
     console.log(`Question: ${question}`);
     const youranswer = readlineSync.question('Your answer: ');
     if (youranswer === programanswer) {
       console.log('Correct!');
-      i += 1;
-      finalgame = `Congratulations, ${name}!`;
-    } else { console.log(`'${youranswer}' is wrong answer ;(. Correct answer was '${programanswer}'`); i = 3; 
-      finalgame = `Let's try again, ${name}!`;
+      finalgame = `Congratulations, ${username}!`;
+    } else { console.log(`'${youranswer}' is wrong answer ;(. Correct answer was '${programanswer}'`);
+      finalgame = `Let's try again, ${username}!`;
       return console.log(finalgame);
     }
   }
