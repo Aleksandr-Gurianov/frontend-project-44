@@ -10,7 +10,7 @@
     "brain-prime": "bin/brain-prime.js"
   },
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Aleksandr-Gurianov/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Aleksandr-Gurianov/frontend-project-44/actions)",
+  "description": "A series of simple games in which you have 3 attempts for win, if your answer isn't correct algorithm show message. Any of games you can start for special command (look README.md) or from /bin/ folder.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
