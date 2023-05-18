@@ -22,4 +22,5 @@ const gameGcd = () => {
   return [question, `${play}`];
 };
 
-export const gcdgame = playnewgame(text, gameGcd);
+const gcdgame = playnewgame(text, gameGcd);
+export default gcdgame;

@@ -11,4 +11,4 @@ const gameEven = () => {
 };
 
 const evenplay = playnewgame(textofEven, gameEven);
-export default evenplay
+export default evenplay;

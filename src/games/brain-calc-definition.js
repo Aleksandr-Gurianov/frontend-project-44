@@ -24,4 +24,5 @@ const getexpressionResult = () => {
   return [question, `${res}`];
 };
 
-export const calcgame = playnewgame(textCalc, getexpressionResult);
+const calcgame = playnewgame(textCalc, getexpressionResult);
+export default calcgame;

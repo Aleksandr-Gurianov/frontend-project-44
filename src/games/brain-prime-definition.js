@@ -12,4 +12,5 @@ const primegame = () => {
   return [y, result];
 };
 
-export const playprime = playnewgame(text, primegame);
+const playprime = playnewgame(text, primegame);
+export default playprime;

@@ -20,4 +20,5 @@ const randomNumb = () => {
   arr[addDot] = dot;
   return [arr.join(' '), `${rightanswer}`];
 };
-export const progressiongame = playnewgame(text, randomNumb);
+const progressiongame = playnewgame(text, randomNumb);
+export default progressiongame;
