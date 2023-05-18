@@ -7,10 +7,8 @@ parserOptions:
   ecmaVersion: latest
   sourceType: module
 rules: {
-  no-console: off,
-  no-underscore-dangle: ["error", { "allow": ["__filename___", "__dirname"] }],
-  import/extensions: off,
-  import/prefer-default-export: off  
-
- }
-
+  import/extensions: 0,
+  import/prefer-default-export: 0,
+  no-console: 0,
+  no-unused-expressions: 0
+}
