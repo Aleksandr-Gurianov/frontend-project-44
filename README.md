@@ -21,25 +21,29 @@
 
 <h3> Recorded videos and conditions: programs in works</h3>
 
-<ul>
-<li>
-<a href="https://asciinema.org/a/kiJWDHY2gPcPvPftXZFJFbf27" target="_blank"><img src="https://asciinema.org/a/kiJWDHY2gPcPvPftXZFJFbf27.svg" /></a>
-<a href="https://asciinema.org/a/kiJWDHY2gPcPvPftXZFJFbf27">brain-even</a>
-<p>In game Brain-even you need to define even or odd number, if number is even answer is "yes", otherwise "no".</p></li>
-<li>
-<a href="https://asciinema.org/a/GNzGxWanBkJkDJ0Qd2uK2xbUi" target="_blank"><img src="https://asciinema.org/a/GNzGxWanBkJkDJ0Qd2uK2xbUi.svg" /></a>
-<script async id="asciicast-GXRCnXIhHQKvQVW9XZciXV17b" src="https://asciinema.org/a/GXRCnXIhHQKvQVW9XZciXV17b.js"></script>
-<li>
-<a href="https://asciinema.org/a/GXRCnXIhHQKvQVW9XZciXV17b" target="_blank"><img src="https://asciinema.org/a/GXRCnXIhHQKvQVW9XZciXV17b.svg" /></a>
-<a href="https://asciinema.org/a/GXRCnXIhHQKvQVW9XZciXV17b">brain-gcd</a><p>In game Brain-ncd your need to find the greatest common divisor of given numbers.</p></li>
-<li>
-<video width="320" height="240" controls>
-  <source src="https://asciinema.org/a/9BjEceBXCsiJVNd8GM2UvbbCc" type="video/mp4">
-</video>
-<a href="https://asciinema.org/a/9BjEceBXCsiJVNd8GM2UvbbCc">brain-progression</a><p>In the game Brain-progress you need to find the missing number, calculate and write it.</p></li>
-<li>
-<video width="320" height="240" controls>
-  <source src="https://asciinema.org/a/j2Js2dIzb0gKuBA9hc7Xv7J8v" type="video/mp4">
-</video>
-<a href="https://asciinema.org/a/j2Js2dIzb0gKuBA9hc7Xv7J8v">brain-prime</a><p>Brain-prime is like Brain-even, it's simple. "yes" if the given number is prime. Otherwise, answer "no".</p></li>
-</ul>
+<h4>Brain-even</h4>
+<a href="https://asciinema.org/a/kiJWDHY2gPcPvPftXZFJFbf27" target="_blank">
+<img src="https://asciinema.org/a/kiJWDHY2gPcPvPftXZFJFbf27.svg" /></a>
+<p>In game Brain-even you need to define even or odd number, if number is even answer is "yes", otherwise "no".</p>
+
+<h4>Brain-calc</h4>
+<a href="https://asciinema.org/a/GNzGxWanBkJkDJ0Qd2uK2xbUi" target="_blank">
+<img src="https://asciinema.org/a/GNzGxWanBkJkDJ0Qd2uK2xbUi.svg" /></a>
+<p>In Brain-calc you need to calculate the correct operation between numbers like a calculator.</p>
+
+<h4>Brain-gcd</h4>
+<a href="https://asciinema.org/a/GXRCnXIhHQKvQVW9XZciXV17b" target="_blank">
+<img src="https://asciinema.org/a/GXRCnXIhHQKvQVW9XZciXV17b.svg" /></a>
+<p>In game Brain-ncd your need to find the greatest common divisor of given numbers.</p>
+
+
+<h4>Brain-progression</h4>
+<a href="https://asciinema.org/a/9BjEceBXCsiJVNd8GM2UvbbCc" target="_blank">
+<img src="https://asciinema.org/a/9BjEceBXCsiJVNd8GM2UvbbCc.svg" /></a>
+<p>In the game Brain-progress you need to find the missing number, calculate and write it.</p>
+
+
+<h4>Brain-prime</h4>
+<a href="https://asciinema.org/a/j2Js2dIzb0gKuBA9hc7Xv7J8v" target="_blank">
+<img src="https://asciinema.org/a/j2Js2dIzb0gKuBA9hc7Xv7J8v.svg" /></a>
+<p>Brain-prime is like Brain-even, it's simple. "yes" if the given number is prime. Otherwise, answer "no".</p>
