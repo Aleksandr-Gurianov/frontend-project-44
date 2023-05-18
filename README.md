@@ -9,7 +9,7 @@
 <h2>Rule Details</h2>
 <ul>
 <li>Games start</a>
-<p>You need version node.js 2.0 or higher.</p>
+<p>You need version node.js v20.0.0 or higher.</p>
 <p>In this program available 5 games: brain-even, brain-calc, brain-gcd, brain-progression, brain-prime. For call one of them you need to write the name of the game or call with 'node brain-name-game.js' </p>
 </li>
 <li>Options</a>
