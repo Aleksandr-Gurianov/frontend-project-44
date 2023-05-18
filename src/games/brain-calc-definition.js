@@ -1,5 +1,5 @@
-import { playnewgame } from '../index.js';
-import { randomRange } from '../randomnumber.js';
+import playnewgame from '../index.js';
+import randomRange from '../randomnumber.js';
 
 const textCalc = 'What is the result of the expression?';
 

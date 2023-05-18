@@ -1,5 +1,5 @@
-import { playnewgame } from '../index.js';
-import { randomRange } from '../randomnumber.js';
+import playnewgame from '../index.js';
+import randomRange from '../randomnumber.js';
 
 const text = 'What number is missing in the progression?';
 

@@ -1,5 +1,5 @@
-import { playnewgame } from '../index.js';
-import { randomRange } from '../randomnumber.js';
+import playnewgame from '../index.js';
+import randomRange from '../randomnumber.js';
 
 const textofEven = 'Answer "yes" if the number is even, otherwise answer "no".';
 
