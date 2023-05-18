@@ -1,9 +1,9 @@
 import readlineSync from 'readline-sync';
-import { greeting } from './cli.js';
+import greeting from './cli.js';
 
 const username = greeting();
 
-export const playnewgame = (text, gamevariant) => {
+const playnewgame = (text, gamevariant) => {
   console.log(text);
   let finalgame = '';
   const numberOfround = 3;
@@ -22,3 +22,5 @@ export const playnewgame = (text, gamevariant) => {
   }
   return console.log(finalgame);
 };
+
+export default playnewgame;
