@@ -28,7 +28,7 @@
 <p>In game Brain-even you need to define even or odd number, if number is even answer is "yes", otherwise "no".</p></li>
 <li>
 <a href="https://asciinema.org/a/GNzGxWanBkJkDJ0Qd2uK2xbUi" target="_blank"><img src="https://asciinema.org/a/GNzGxWanBkJkDJ0Qd2uK2xbUi.svg" /></a>
-<a href="https://asciinema.org/a/GNzGxWanBkJkDJ0Qd2uK2xbUi">brain-calc</a><p>In game Brain-calc your task is count up mathematical operation between 2 numbers and write correct answer.</p></li>
+<script async id="asciicast-GXRCnXIhHQKvQVW9XZciXV17b" src="https://asciinema.org/a/GXRCnXIhHQKvQVW9XZciXV17b.js"></script>
 <li>
 <a href="https://asciinema.org/a/GXRCnXIhHQKvQVW9XZciXV17b" target="_blank"><img src="https://asciinema.org/a/GXRCnXIhHQKvQVW9XZciXV17b.svg" /></a>
 <a href="https://asciinema.org/a/GXRCnXIhHQKvQVW9XZciXV17b">brain-gcd</a><p>In game Brain-ncd your need to find the greatest common divisor of given numbers.</p></li>
