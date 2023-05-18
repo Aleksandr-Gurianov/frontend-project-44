@@ -10,4 +10,5 @@ const gameEven = () => {
   return [number, numOddEv];
 };
 
-export const evenplay = playnewgame(textofEven, gameEven);
+const evenplay = playnewgame(textofEven, gameEven);
+export default evenplay
