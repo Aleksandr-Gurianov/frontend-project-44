@@ -3,23 +3,28 @@ import getProgression from '../utilsCalcProgress.js';
 
 const textCalc = 'What is the result of the expression?';
 
-const getexpressionResult = () => {
-  const symbol = ['-', '+', '*'];
+const getRandomSymbol = (numberOne, numberTwo) => {
   let res = '';
+  let question = '';
+  const symbol = ['-', '+', '*'];
   const l = symbol.length;
   const rand = Math.floor(Math.random() * l);
   const randSymbol = symbol[rand];
-  let question = '';
-  const randomNumOne = getProgression(1, 35);
-  const randomNumTwo = getProgression(1, 5);
   if (randSymbol === '-') {
-    res = randomNumOne - randomNumTwo; question = `${randomNumOne} - ${randomNumTwo}`;
+    res = numberOne - numberTwo; question = `${numberOne} - ${numberTwo}`;
   } else if (randSymbol === '+') {
-    res = randomNumOne + randomNumTwo; question = `${randomNumOne} + ${randomNumTwo}`;
+    res = numberOne + numberTwo; question = `${numberOne} + ${numberTwo}`;
   } else {
-    res = randomNumOne * randomNumTwo; question = `${randomNumOne} * ${randomNumTwo}`;
+    res = numberOne * numberTwo; question = `${numberOne} * ${numberTwo}`;
   }
   return [question, `${res}`];
+};
+
+const getexpressionResult = () => {
+  const randomNumOne = getProgression(5, 35);
+  const randomNumTwo = getProgression(1, 5);
+  const result = (getRandomSymbol(randomNumOne, randomNumTwo));
+  return result;
 };
 
 const calcgame = playNewGame(textCalc, getexpressionResult);
