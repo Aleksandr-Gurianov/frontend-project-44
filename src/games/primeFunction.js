@@ -3,14 +3,19 @@ import randomRange from '../utils.js';
 
 const text = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const primegame = () => {
+const calculationPrime = (number) =>{
   let result = 'yes';
-  const y = randomRange();
-  for (let i = 2; i < y; i += 1) {
-    if (y % i === 0) { result = 'no'; }
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) { result = 'no'; }
   }
-  return [y, result];
+  return [number, result];
 };
 
-const playprime = playNewGame(text, primegame);
+const primeGame = () => {
+  const number = randomRange();
+  const result = calculationPrime(number);
+  return result;
+};
+
+const playprime = playNewGame(text, primeGame);
 export default playprime;
