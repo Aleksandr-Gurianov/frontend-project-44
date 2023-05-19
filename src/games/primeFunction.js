@@ -3,7 +3,7 @@ import randomRange from '../utils.js';
 
 const text = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const calculationPrime = (number) =>{
+const calculationPrime = (number) => {
   let result = 'yes';
   for (let i = 2; i < number; i += 1) {
     if (number % i === 0) { result = 'no'; }
