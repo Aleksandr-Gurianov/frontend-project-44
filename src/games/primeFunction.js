@@ -1,16 +1,16 @@
-import playnewgame from '../index.js';
-import randomRange from '../randomnumber.js';
+import playNewGame from '../index.js';
+import randomRange from '../utils.js';
 
 const text = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const primegame = () => {
   let result = 'yes';
-  const y = randomRange(2, 35);
+  const y = randomRange();
   for (let i = 2; i < y; i += 1) {
     if (y % i === 0) { result = 'no'; }
   }
   return [y, result];
 };
 
-const playprime = playnewgame(text, primegame);
+const playprime = playNewGame(text, primegame);
 export default playprime;
