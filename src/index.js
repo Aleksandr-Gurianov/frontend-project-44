@@ -3,8 +3,8 @@ import greeting from './cli.js';
 
 const username = greeting();
 
-const playNewGame = (sendGameDescription, insertRulesOfGame) => {
-  console.log(sendGameDescription);
+const playNewGame = (showGameDescription, insertRulesOfGame) => {
+  console.log(showGameDescription);
   let finalGame = '';
   const countOfRound = 3;
   for (let i = 0; i < countOfRound; i += 1) {
