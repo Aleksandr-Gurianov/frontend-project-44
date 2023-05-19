@@ -3,24 +3,24 @@ import greeting from './cli.js';
 
 const username = greeting();
 
-const playnewgame = (text, gamevariant) => {
-  console.log(text);
-  let finalgame = '';
-  const numberOfround = 3;
-  for (let i = 0; i < numberOfround; i += 1) {
-    const [question, programanswer] = gamevariant();
+const playNewGame = (sendGameDescription, insertRulesOfGame) => {
+  console.log(sendGameDescription);
+  let finalGame = '';
+  const countOfRound = 3;
+  for (let i = 0; i < countOfRound; i += 1) {
+    const [question, programanswer] = insertRulesOfGame();
     console.log(`Question: ${question}`);
     const youranswer = readlineSync.question('Your answer: ');
     if (youranswer === programanswer) {
       console.log('Correct!');
-      finalgame = `Congratulations, ${username}!`;
+      finalGame = `Congratulations, ${username}!`;
     } else {
       console.log(`'${youranswer}' is wrong answer ;(. Correct answer was '${programanswer}'`);
-      finalgame = `Let's try again, ${username}!`;
-      return console.log(finalgame);
+      finalGame = `Let's try again, ${username}!`;
+      return console.log(finalGame);
     }
   }
-  return console.log(finalgame);
+  return console.log(finalGame);
 };
 
-export default playnewgame;
+export default playNewGame;
