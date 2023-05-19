@@ -3,7 +3,7 @@ import randomRange from '../utils.js';
 
 const text = 'Find the greatest common divisor of given numbers.';
 
-const nod = (first, second) => {
+const getNod = (first, second) => {
   let x = Math.abs(first);
   let y = Math.abs(second);
   while (y) {
@@ -15,10 +15,10 @@ const nod = (first, second) => {
 };
 
 const gameGcd = () => {
-  const first = Math.abs(randomRange());
-  const second = Math.abs(randomRange());
+  const first = randomRange();
+  const second = randomRange();
   const question = `${first} ${second}`;
-  const play = nod(first, second);
+  const play = getNod(first, second);
   return [question, `${play}`];
 };
 
